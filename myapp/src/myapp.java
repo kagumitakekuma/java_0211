@@ -2,13 +2,19 @@ import java.util.Scanner;
 
 public class myapp {
     
-public static void main(String[] args) {
-    System.out.println("Your name?");
-    String name =new Scanner(System.in).next();
+    public static void main(String[] args) { 
+        Integer answer = 6;
+
+    System.out.println("Your guess?");
+    //String name =new Scanner(System.in).nextInt();
+    Integer guess = new Scanner(System.in).nextInt();
     //String name = "take";
-    
-    System.out.println("hello" +name);
-    System.out.println("hello" +name +"again!");
+    if (answer == guess) {
+        System.out.printkn("Bingo!");
+        
+    }
+    //System.out.println("Your guess:" +guess);
+
 
   }
 
